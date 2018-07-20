@@ -1,0 +1,36 @@
+{
+  "name": "koaApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js --exec babel-node --presets env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinazubbb/koaApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinazubbb/koaApp/issues"
+  },
+  "homepage": "https://github.com/alinazubbb/koaApp#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "bcrypt": "^2.0.1",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-parser": "^1.0.5",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.5",
+    "mongoose": "^5.1.7",
+    "mongoose-beautiful-unique-validation": "^7.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
